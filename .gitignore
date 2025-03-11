@@ -1,0 +1,68 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter notebook metadata
+**/.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.conda/
+conda_env/
+
+# Ignore package manager dependencies (if using Poetry, Pipenv, or Conda)
+Pipfile
+Pipfile.lock
+poetry.lock
+env.yml
+
+# Ignore data files
+*.csv
+*.tsv
+*.dat
+*.data
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# Ignore large output files and logs
+*.log
+*.out
+*.err
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Ignore Jupyter Notebook execution cache (if any)
+*.nbconvert/
+*.nb.html
+
+# Ignore Jupyter Notebook outputs (optional)
+# Uncomment the next line if you don't want to track notebook outputs
+# **/*_output.json
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore JetBrains IDE settings (if using PyCharm)
+.idea/
+
+# Ignore all hidden system files
+.*~
